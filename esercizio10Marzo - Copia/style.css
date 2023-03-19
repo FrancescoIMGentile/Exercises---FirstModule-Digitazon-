@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+.logo {
+    width: 100px;
+}
+
+ol , ol li{
+
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+img {
+    
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+.sentences > span {
+  display: block;
+  padding: 10px;
+}
+
+div.center > div > span {
+  display: none;
+}
+
+
+.photo-1:hover ~ div > .sentence-1 {
+    display: initial
+}
+
+.photo-2:hover ~ div > .sentence-2 {
+    display: initial
+}
+
+.photo-3:hover ~ div > .sentence-3 {
+    display: initial
+}
+
+.photo-4:hover ~ div > .sentence-4 {
+    display: initial
+}
+
+.photo-5:hover ~ div > .sentence-5 {
+    display: initial
+}
+
+.photo-6:hover ~ div > .sentence-6 {
+    display: initial
+}
+
+.photo-7:hover ~ div > .sentence-7 {
+    display: initial
+}
+

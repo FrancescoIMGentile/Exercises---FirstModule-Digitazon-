@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image:url(imgn/backgroundim.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background {
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+img {
+    width: 100px;
+
+    
+}
+
+
+.InfoBar {
+    
+    
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(6, 3, 3);
+    border: 1px solid rgb(209, 140, 10);
+    text-align: center;
+    flex-grow: 5;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Climate Crisis', cursive;
+    
+}
+
+.InfoBar a {
+    
+    text-decoration: none;
+    color: rgb(216, 210, 210);
+}
+
+
+.InfoBar a:hover {
+    background-color: rgb(247, 151, 26);
+}
+
+.Login {
+    margin-left: auto;
+}
+
+.Login:hover {
+
+    background: fixed;
+    
+    opacity: 0.4;
+   
+}
+
+.display {
+
+    display: flex;
+    
+}
+
+.Items {
+    
+    align-items: center;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+
+}
+
+.Items img {
+
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 230px;
+    margin-bottom: 30px;
+    
+}
+
+.Items div {
+    
+    flex-direction: column;
+    margin: 5px;
+}
+
+.carrello {
+    
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid goldenrod;
+    background: rgb(0, 0, 0, 0.5); 
+    
+}
+
+
+
+
+.FirstIcart {
+
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.FirstIcart img {
+    
+    width: 70px;
+}
+.FirstIcart > span {
+    
+    
+    font-weight: bold;
+    color: rgb(220, 217, 217);
+}
+
+select {
+
+    width: 50px;
+}
+
+
+.SecondIcart {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SecondIcart img {
+
+    width: 70px;
+
+    
+}
+
+.SecondIcart > span {
+
+    font-weight: bold;
+    color: rgb(220, 217, 217);
+
+}
+
+
+ 
+input[type=submit] {
+    
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:5px 15px; 
+    background:#d37109; 
+    border: 4px; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    border-color:#0d0b0b;
+}
+
+input:hover {
+
+    background-color: rgb(225, 39, 126);
+}
+

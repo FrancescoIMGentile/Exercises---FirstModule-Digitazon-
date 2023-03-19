@@ -1,0 +1,36 @@
+ul:first-of-type li:first-child {
+    color: yellow;
+}
+
+ul:first-of-type li:nth-child(2) {
+    color: rgb(0, 255, 26);
+}
+
+ul:first-of-type li:nth-child(3) {
+    color: rgb(255, 0, 0);
+}
+
+ul:first-of-type li:nth-child(4) {
+    color: rgb(8, 23, 133);
+}
+
+ul:first-of-type li:nth-child(5) {
+    color: rgb(198, 12, 170);
+}
+
+ul:first-of-type li:last-child {
+    color: brown;
+}
+
+
+ul:last-of-type li:nth-child(odd) {
+    background-color: red;
+}
+
+ul:last-of-type li:nth-child(even) {
+    background-color: rgb(7, 9, 139);
+}
+
+.plain {
+    background-color: brown;
+}

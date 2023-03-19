@@ -1,0 +1,129 @@
+html {
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logoWiki {
+    width: 160px;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+ol li {
+    padding: 10px;
+}
+
+.search {
+    padding: 10px;
+    
+}
+#Searchbar {
+
+    width: 300px;
+}
+
+#list-points {
+    align-items: center;
+    margin-top: 5px;
+}
+
+.Menushow {
+    margin-left: 20px;
+    flex-grow: 1;
+    font-weight: bold;
+    
+}
+
+.LogoWiki {
+    flex-grow: 20;
+    
+}
+
+.SearchInput {
+    flex-grow: 60;
+    
+}
+
+.Tags {
+
+    flex-grow: 1;
+    
+
+    
+}
+
+.ContainerTags-Bio {
+    display: flex;
+}
+
+.tags-li {
+
+    color: blue;
+    margin-top: 150px;
+    display: block;
+}
+
+.Biog-Section {
+    width: 200px;
+    flex-grow: 6;
+    flex-direction: column;
+}
+
+ #InfoOrigin {
+    margin-top: 10px;
+}
+
+.FirstLine {
+
+    display: flex;
+    border-bottom: 1px solid black;
+    align-items: center;
+    
+}
+
+
+.FirstLine :nth-child(2) {
+    margin-left: auto;
+    
+}
+
+.SecondLine {
+    margin-top: 10px;
+    display: flex;
+    border-bottom: 1px solid black;
+    
+}
+
+.SecondLine :nth-child(2) {
+    margin-left: auto;
+    padding: 5px;
+}
+
+.Bio-Photo {
+    display: flex;
+}
+
+.First-Writing {
+    
+    width: 750px;
+}
+.IDLiskov {
+    
+    
+    border: 1px solid black;
+
+}
+
+.IDLiskov img {
+    
+    width: 200px;
+}

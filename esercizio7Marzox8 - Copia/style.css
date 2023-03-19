@@ -1,0 +1,32 @@
+  li:first-child a:visited {
+    color: red;
+  }
+  
+  li:nth-child(2) a:visited {
+    color: gold;
+  }
+  
+
+  li a {
+    color: black;
+  }
+  
+  span:first-child {
+    font-weight: bold;
+    font-style: normal;
+  } 
+  
+  span {
+    font-style: italic;
+    quotes: "«\00AB" "\00BB»";
+  }
+  
+  input[type='checkbox']:checked + span::after {
+    cursor:pointer;
+    content:"❤";
+  }
+  
+  
+  button:hover {
+    display: none;
+  }

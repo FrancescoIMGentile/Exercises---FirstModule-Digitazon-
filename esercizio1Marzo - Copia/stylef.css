@@ -1,0 +1,90 @@
+main {
+    display: flex;
+    
+    
+}
+
+.boxone {
+   background-color: blue;
+   flex-grow: 1;
+   text-align: center;
+   
+}
+
+#Computer {
+    background-color: brown;
+    margin-top: 10px;
+    
+}
+
+.Details {
+
+    background-color: blueviolet;
+    display: flex;
+    flex-grow: 1;
+    width: 200px;
+    
+}
+
+#Dtuno {
+    display: flex;
+    border-right: 1px solid black;
+}
+
+#Tipo1 {
+    border-right: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+    
+}
+
+
+
+#Matre {
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    background-color: rgb(165, 134, 42);
+    margin-top: 8px;
+    padding: 30px;
+
+}
+
+
+#Dtdue {
+    display: flex;
+    border-right: 1px solid black;
+    
+}
+
+#Tipo2 {
+    border-right: 1px solid black;
+}
+
+
+#errore {
+    text-align: center;
+    width: 227px;
+}
+
+#qcc {
+  
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    background-color: rgb(165, 134, 42);
+    
+    padding: 10px;
+
+}
+
+#qcq {
+    
+        border-bottom: 1px solid red;
+        border-top: 1px solid red;
+        background-color: rgb(165, 134, 42);
+        margin-top: 18px;
+        padding: 10px;
+    
+    
+}

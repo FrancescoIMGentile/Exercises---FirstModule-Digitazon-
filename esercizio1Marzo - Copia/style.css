@@ -1,0 +1,58 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table {
+    border: 1 solid;
+    border-radius: 5px;
+    border-color: rgb(7, 1, 1);
+    background-color: rgb(207, 197, 194);
+}
+
+
+.thcolor :first-child,
+.thcolor :last-child  {
+    background-color: rgb(76, 133, 246)
+}
+
+
+#pollo {
+    display: block;
+    width: 100%;
+
+}
+
+#valorinut {
+    background-color: burlywood;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+#ricetta:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+    
+}
+
+
+.comp-val {
+    text-align: center;
+}
+
+
+.color-links a {
+    color: rgb(112, 51, 4);
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    
+    
+    
+} 
+
+
+
+.lista-class :nth-last-child(2) {
+    margin-right: 20px;
+}
